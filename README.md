@@ -22,6 +22,11 @@ Karnaugh Mapping:
 (Hard copies in notebook)
 
 Schematics for both outputs:
+Cout
+![Cout] (https://raw.github.com/John-Rios/ECE281_Lab2/master/Cout_schematic.png)
+
+S
+![S] (https://raw.github.com/John-Rios/ECE281_Lab2/master/S_schematic.png)
 
 Full Adder Interface:
 (Image included in notebook)
@@ -55,6 +60,8 @@ Initially my simulation results were incorrect. My COUT and S outputs were switc
 | 1 | 1 | 1 | 1 | 1 |
 
 Simulation Waveform Results:
+
+![Prelab_Waveform] (https://raw.github.com/John-Rios/ECE281_Lab2/master/testbench_prelab_waveform.png)
 
 
 Bugs/Errors Encountered:
