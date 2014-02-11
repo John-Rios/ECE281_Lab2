@@ -34,6 +34,7 @@ Full Adder Interface:
 Simulation Results:
 
 (initially wrong)
+
 |CIN | A | B | COUT | S |
 |:-:|:-:|:-:|:-:|:-:|
 | 0 |	0	| 0 |	0	| 0 |
@@ -48,6 +49,7 @@ Simulation Results:
 Initially my simulation results were incorrect. My COUT and S outputs were switched. When I looked back on my code I realized that I switched the two outputs. I switched the outputs when labeling my schematic and then created my code off of that schematic. This was a very simple fix as all I had to do was re-label my schematic and the code for my outputs. After correcting my typos, my simulation resulted in the expected outcomes. 
 
 (Simulation results after correcting the bug)
+
 |CIN | A | B | COUT | S |
 |:-:|:-:|:-:|:-:|:-:|
 | 0 |	0	| 0 |	0	| 0 |
@@ -61,7 +63,7 @@ Initially my simulation results were incorrect. My COUT and S outputs were switc
 
 Simulation Waveform Results:
 
-![Prelab_Waveform] (https://raw.github.com/John-Rios/ECE281_Lab2/master/testbench_prelab_waveform.png)
+![Prelab] (https://raw.github.com/John-Rios/ECE281_Lab2/master/testbench_prelab_waveform.png)
 
 
 Bugs/Errors Encountered:
