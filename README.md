@@ -63,7 +63,7 @@ Initially my simulation results were incorrect. My COUT and S outputs were switc
 
 Simulation Waveform Results:
 
-![Prelab] (https://raw.github.com/John-Rios/ECE281_Lab2/master/testbench_prelab_waveform.png)
+![Prelab] (https://raw.github.com/John-Rios/ECE281_Lab2/master/Testbench_prelab_waveform.png)
 
 
 Bugs/Errors Encountered:
