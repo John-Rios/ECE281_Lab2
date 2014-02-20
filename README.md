@@ -81,6 +81,7 @@ Errors Encountered and Debugging:
 	When designing the overflow detector I kept getting a syntax error that stopped my progress. My vector variable of Cout() was giving me the error when I tried to capture the value of the carry-out of the fourth bit. C2C Agnolutto helped me identify the error. I did not establish Cout(4) but was attempting to access it. I had only established the vector to hold values of 0-3. To resolve the error I created a new temproary variable named 'C' who's sole purpose was to capture the carry-out value of the fourth adder.
 	When creating the four bit testbench I was running into an error which identified that the '+' and '-' symbols were not valid. Upon googling the error I realized that I was not using all of the required libraries in VHDL. Google helped me identify the correct libraries which corrected this error.
 	With my four bit testbench I kept getting simulation results that depicted multiple unknown variables. My simulation results had several undesired variables and each one was undefined. I corected this error by reducing the demand on my simulation. I required only the sum to be outputed. This fixed my error. I am unsure what was causing the error but due to the solution, I believe it may have been caused by asking for unknown/undeclared inputs and outputs. 
+	For my overflow detector I programmed it wrong. Dr. Neebal discussed a common error in class which led me to use a XOR gate to identify an overflow based on the carry in and the carry out of the last adder. 
 	
 
 Final Schematic:
