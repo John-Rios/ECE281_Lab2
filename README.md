@@ -78,3 +78,18 @@ Lab Procedures and Design Process:
 Errors Encountered and Debugging:
 	I ran into several errors while performing this lab. The first issue I encountered was that I was having difficulty  making thecary-out of one adder equal the carry-in of the next adder using the vector form of each. I resolved this issue by creating a new temporary variable that acted as a place holder. The variable 'Carry' would be set as the carry-out of each adder so that I could set the carry-in of the next adder to the value of the variable 'Carry'. This resolved the issue and simplified my code.
 	The next error I encountered 
+	
+
+Final Schematic:
+	The following depicts the design of my four bit adder. The image is property of someone else (found on google) but shows exactly how my lab was designed. 
+	
+![FourBit] (https://raw.github.com/John-Rios/ECE281_Lab2/master/Adder_Subtractor_Schematic.png)
+	
+	The following shows how each adder within the four bit adder was designed. My design is less simplified than others but mine is still operational. Both of the following outputs make up the design of one adder.
+	
+Schematics for both outputs:
+Cout
+![Cout] (https://raw.github.com/John-Rios/ECE281_Lab2/master/Cout_schematic.png)
+
+S
+![S] (https://raw.github.com/John-Rios/ECE281_Lab2/master/S_schematic.png)
