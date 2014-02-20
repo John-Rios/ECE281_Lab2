@@ -85,11 +85,17 @@ Final Schematic:
 	
 ![FourBit] (https://raw.github.com/John-Rios/ECE281_Lab2/master/Adder_Subtractor_Schematic.png)
 	
-	The following shows how each adder within the four bit adder was designed. My design is less simplified than others but mine is still operational. Both of the following outputs make up the design of one adder.
+The following shows how each adder within the four bit adder was designed. My design is less simplified than others but mine is still operational. Both of the following outputs make up the design of one adder.
 	
 Schematics for both outputs:
 Cout
+
 ![Cout] (https://raw.github.com/John-Rios/ECE281_Lab2/master/Cout_schematic.png)
 
 S
+
 ![S] (https://raw.github.com/John-Rios/ECE281_Lab2/master/S_schematic.png)
+
+Testbench Results for Four bit Adder/Subtractor:
+
+![Cout] (https://raw.github.com/John-Rios/ECE281_Lab2/master/Four_Bit_Testbench_Waveform.JPG)
