@@ -1,0 +1,25 @@
+# 4 bit adder constraints
+
+# Input constraints - First Number
+NET "A(0)" LOC = "G18"; #Type = INPUT,Sch name = SW0
+NET "A(1)" LOC = "H18"; #Type = INPUT,Sch name = SW1
+NET "A(2)" LOC = "K18"; #Type = INPUT,Sch name = SW2
+NET "A(3)" LOC = "K17"; #Type = INPUT,Sch name = SW3
+
+# Input constraints - Second number
+NET "B(0)" LOC = "L14"; #Type = INPUT,Sch name = SW4
+NET "B(1)" LOC = "L13"; #Type = INPUT,Sch name = SW5
+NET "B(2)" LOC = "N17"; #Type = INPUT,Sch name = SW6
+NET "B(3)" LOC = "R17"; #Type = INPUT,Sch name = SW7
+
+# Output constraints - Sum displayed on LEDs
+NET "S(0)" LOC = "J14"; #Type = OUTPUT, Sch name = LD0
+NET "S(1)" LOC = "J15"; #Type = OUTPUT, Sch name = LD1
+NET "S(2)" LOC = "K15"; #Type = OUTPUT, Sch name = LD2
+NET "S(3)" LOC = "K14"; #Type = OUTPUT, Sch name = LD3
+
+# Subtraction number - button 3 (left-most button)
+NET "Button" LOC = "H13"; #Type = INPUT, Sch name = BTN3
+
+# Overflow detection - Displayed on LED 7 (left-most button)
+NET "Overflow" LOC = "R4"; #Type = OUTPUT, Sch name = LD7
