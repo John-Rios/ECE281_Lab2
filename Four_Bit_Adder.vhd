@@ -52,38 +52,38 @@ end component Full_Adder;
 
 begin
 
-X <= not B when (Button = '1') else B;
-Carry(0) <= ('1') when (Button = '1') else ('0');
+X <= not B when (Button = '1') else B; --When button is pushed B becomes negative for subtraction. X is simply a place holder for B whether B is positive or negative.
+Carry(0) <= ('1') when (Button = '1') else ('0'); --When button is pushed, the first carry in equals one for a proper two's compliment conversion
 
-Bit0: Full_Adder
-	port map (Cin => Carry(0),
+Bit0: Full_Adder --first bit
+	port map (Cin => Carry(0), -- Carry is a variable used to hold the value between the Cin and Cout of each adder
 				 A => A(0),
 				 B => X(0),
 				 Cout => Carry(1),
 				 S => S(0));
 		
-Bit1: Full_Adder
+Bit1: Full_Adder --second bit
 	port map (Cin => Carry(1),
 				 A => A(1),
 				 B => X(1),
 				 Cout => Carry(2),
 				 S => S(1));
 		
-Bit2: Full_Adder
+Bit2: Full_Adder -- third bitt
 	port map (Cin => Carry(2),
 				 A => A(2),
 				 B => X(2),
 				 Cout => Carry(3),
 				 S => S(2));
 
-Bit3: Full_Adder
+Bit3: Full_Adder -- fourth bit
 	port map (Cin => Carry(3),
 				 A => A(3),
 				 B => X(3),
-				 Cout => C,
+				 Cout => C, --Cout equals new variable 'C'. Used to help track overflow of arithmetic. 
 				 S => S(3));
 				 
-Overflow <= C XOR Carry(3);
+Overflow <= C XOR Carry(3); --Detects overflow even if subtraction or addition between negative two's compliemtn numbers occurs
 				
 end Structural;
 
