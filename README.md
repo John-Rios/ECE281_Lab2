@@ -1,4 +1,4 @@
-(I uploaded before the start of class. However, today there was a delayed start so the start time of class is later than usual. )
+(I uploaded before the start of class. However, today there was a delayed start due to snow so the start time of class is later than usual. )
 
 
 ECE281_Lab2
